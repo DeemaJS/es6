@@ -3,7 +3,7 @@ var foot = {
 		this.yelp = "Ouch!";
 		setImmediate( () => {
 			console.log(this.yelp);
-		});
+		});  // bind(this) or that = this
 	}
 };
 
