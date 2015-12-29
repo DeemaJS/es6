@@ -7,4 +7,4 @@
 	return (lower + upper) / 2;
 };*/
 
-module.exports = (str, num = str.length) => `${str}${'!'.repeat(num)}`;
+module.exports = (str, num = str.length) => str + '!'.repeat(num);
